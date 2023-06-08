@@ -1,0 +1,240 @@
+@font-face {
+    font-family: Oswald;
+    src: url('Oswald/Oswald-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family: Jost;
+    /* src: url('Jost/Jost-VariableFont_wght.ttf'); */
+    src: url('Jost/Jost-Italic-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family: Bebas;
+    /* src: url('Jost/Jost-VariableFont_wght.ttf'); */
+    src: url('Bebas_Neue/BebasNeue-Regular.ttf');
+}
+@font-face {
+    font-family: Gasoek_One;
+    src: url('Gasoek_One/GasoekOne-Regular.ttf');
+}
+@font-face {
+    font-family: Lobster;
+    /* src: url('Jost/Jost-VariableFont_wght.ttf'); */
+    src: url('Lobster/Lobster-Regular.ttf');    
+}
+body {
+    margin: 0;
+}
+#Whole {
+    width: 100%;
+    height: 240ch;
+    background-color: white;
+    
+}
+#UpBar {
+    position: fixed;
+    background-color: rgb(57, 57, 57);
+    background-color: white;
+    width: 100%;    
+    height: 8ch;
+    text-align: left;
+    /* background-color: aquamarine; */
+}
+#UpBar-logo-1 {
+    margin-left: 4ch;
+    align-items: center;
+    display: flex;
+    /* margin-left: auto; */
+    margin-right: 0;
+    /* display: block; */
+    height: 100%;
+    float:left
+    
+}
+#Center {
+    width: 100%;
+    height: 92ch;
+    background-color: rgb(255, 255, 255);
+    font-family: Oswald;
+}
+#Project1 {
+    width: calc(100% / 3);
+    height: 100%;
+    background-color: #ff5b74;
+    float: left;
+    display: flex;
+    align-items: center;
+    -webkit-transition : height 1s;
+    transition: 7.5vh;
+}
+#Project1:hover {
+    height: calc(100% + 5ch);
+}
+
+#Project2 {
+    width: calc(100% / 3);
+    height: 100%;
+    background-color: rgb(97, 255, 218);
+    float: left;
+    display: flex;
+    align-items: center;
+    -webkit-transition: height 1s;
+    transition: 7.5vh;
+}
+#Project2:hover {
+    height: calc(100% + 5ch);
+}
+#Project3 {
+    width: calc(100% / 3);
+    height: 100%;
+    background-color: rgb(67, 170, 255);
+    display: flex;
+    align-items: center;
+    float: left;
+    -webkit-transition: height 1s;
+    transition: 7.5vh;
+}
+#Project3:hover {
+    height: calc(100% + 5ch);
+}
+
+.main-heading-2 {
+    width: auto;
+    max-width: 18ch;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 5px;
+    font-family: Oswald,sans-serif;
+    font-size: 6.5vh;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1;
+    -webkit-transition: font-size 1s ;
+    transition: 7.5vh;
+}
+.main-heading-2:hover {
+    font-size: 7.5vh
+}
+.logo-1 {
+    color: #242d2c;
+    text-align: left;
+    letter-spacing: 2.2px;
+    text-transform: uppercase;
+    /* border-left: 1px solid #242d2c;
+    margin-left: 24px;
+    padding-top: 0;
+    /* padding-bottom: 0;
+    padding-left: 16px; */
+    font-family: Bebas,sans-serif;
+    font-size: 5vh;
+    font-weight: 500;
+    line-height: 16px;
+}
+.logo-description {
+    color: #242d2c;
+    text-align: left;
+    /* letter-spacing: 2.2px; */
+    text-transform: uppercase;
+    /* border-left: 1px solid #242d2c;
+    margin-left: 24px;
+    padding-top: 0;
+    /* padding-bottom: 0;
+    padding-left: 16px; */
+    font-family: Jost,sans-serif;
+    font-size: 10px;
+    /* font-weight: 500; */
+    line-height: 16px;
+    margin-left: 10px;
+}
+
+#Graph_img {
+    max-width: 60%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#Game_img {
+    max-width: 70%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#Robot_img {
+    max-width: 70%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#explanation_us {   
+    width: 100%;
+    height: 70vh ;
+    background-color: rgb(255, 255, 255)  ;
+    text-align: left;
+    letter-spacing: -.0375em;
+    padding-right: 0;
+
+}
+
+#EX_US_TEXT {
+    width: 80%;
+    height: 80%;
+    padding: 10%;
+}
+#about_us_text1 {
+    font-family: Jost,sans-serif;
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 1.25;
+    -webkit-text-fill-color: transparent;
+    background-image: url(https://uploads-ssl.webflow.com/63eb8f00ccfebbae94a211eb/63eb8fc17d940d50540705fc_63e4a8da80d9b4763a3e57a3_Gradient%20Blur%20001.webp);
+    background-size:cover;
+    background-position: 50%;
+    -webkit-background-clip: text;
+}
+
+#about_us_text2 {
+    font-family: Jost,sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+#person1 {
+    width: calc(100% / 2);
+    height: 100%;
+    background-color: #dddcdc;
+    float: left;
+    display: flex;
+    align-items: center;
+    -webkit-transition : height 1s;
+    transition: 7.5vh;
+}
+#person2 {
+    width: calc(100% / 2);
+    height: 100%;
+    background-color: #dddcdc;
+    float: left;
+    display: flex;
+    align-items: center;
+    -webkit-transition : height 1s;
+    transition: 7.5vh;
+}
+#person_inform{
+    width: 100%;
+    height: 97ch;
+    background-color: rgb(255, 255, 255);
+    font-family: Oswald;
+}
+#explanation_person1{
+    font-family: Gasoek_One,sans-serif; 
+    font-size: 5rem;
+    
+    
+
+}
+#explanation_person11 {
+    font-family: Jost,sans-serif;
+    font-size: ;
+}
